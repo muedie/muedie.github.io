@@ -15,7 +15,7 @@
 <body>
     <div class="wrapper">
         <div class="header-bg-img">
-            <nav>
+            <nav id="mynav" class="cmynav">
                 <a id="logo" href="#">SAFAL LAMSAL</a>
                 <a href="#">Home</a>
                 <a href="#projects">Projects</a>
@@ -23,6 +23,7 @@
                 <a href="https://github.com/muedie" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
+                <a href="javascript:void(0);" class="icon" onclick="toggle()"><i class="fa fa-bars"></i></a>
             </nav>
             <div id="main-content">
                 <img src="assets/Potrait.JPG" alt="my potrait">
@@ -64,6 +65,15 @@
             <p>Copyright &copy; 2018 - Safal Lamsal</p>
         </footer>
     </div>
+    <script>
+        function toggle() {
+            let x = document.getElementById('mynav');
+            if (x.className === 'cmynav') {
+                x.className += ' responsive';
+            } else {
+                x.className = 'cmynav';
+            }
+        }
+    </script>
 </body>
-
 </html>
