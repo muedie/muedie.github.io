@@ -166,3 +166,27 @@ footer .fab {
 footer p {
     margin-top: 15px;
 }
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 600;
+    }
+    #main-content {
+        display: block;
+        text-align: center;
+    }
+    .welcome-text {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .showcase {
+        display: inline-block;
+        text-align: center;
+    }
+    .card {
+        margin: 15px auto;
+    }
+}
