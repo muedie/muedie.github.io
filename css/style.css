@@ -189,6 +189,9 @@ footer p {
     .cmynav.responsive {
         position: relative;
     }
+    .cmynav.responsive #logo {
+        display: none;
+    }
     .cmynav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -214,5 +217,6 @@ footer p {
     }
     .card {
         margin: 15px auto;
+        width: 80%;
     }
 }
