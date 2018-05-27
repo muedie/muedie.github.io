@@ -84,6 +84,49 @@ nav a {
     font-size: 64px;
 }
 
+/* showcase */
+
+.showcase {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* card design help from w3school*/
+.card {
+    background: #c4c4c4;
+    color: #4f4f4f;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-cont {
+    padding: 2px 16px;
+}
+
+.card-cont h2 {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.card-cont p {
+    padding: 5px;
+}
+
+/* more buttons */
+
 .btn {
     text-decoration: none;
     background-color: #5bc0de;
