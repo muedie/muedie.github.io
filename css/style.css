@@ -87,7 +87,7 @@ nav a {
 /* showcase */
 
 .showcase {
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
@@ -123,6 +123,10 @@ nav a {
 
 .card-cont p {
     padding: 5px;
+}
+
+.card-cont a {
+    color: black;
 }
 
 /* more buttons */
