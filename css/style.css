@@ -1,0 +1,121 @@
+html {
+    background: #4f4f4f;
+}
+
+a {
+    color: #F2F2F2;
+}
+
+a:hover {
+    color: #5bc0de;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.header-bg-img {
+    /* background: url(../assets/bg.jpg); */
+    background: #4f4f4f;
+}
+
+nav {
+    display: flex;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+#logo {
+    margin-right: auto;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+/* main-content */
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#main-content img {
+    border-radius: 100%;
+}
+
+.welcome-text {
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+}
+
+.welcome-text h1 {
+    font-size: 72px;
+}
+
+.welcome-text p {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+/* scroll */
+.down-arrow {
+    margin-top: 100px;
+}
+
+.down-arrow i {
+    font-size: 30px;
+}
+
+/* projects */
+#projects {
+    margin-top: 40px;
+}
+
+#projects h1 {
+    font-size: 64px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #5bc0de;
+    border: none;
+    color: #F2F2F2;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
+    margin: 25px;
+}
+
+.btn:hover {
+    color: black;
+}
+
+/* footer */
+footer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#first-link {
+    margin-left: auto;
+}
+
+footer .fab {
+    margin: 10px;
+    font-size: 32px;
+}
+
+footer p {
+    margin-top: 15px;
+}
